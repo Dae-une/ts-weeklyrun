@@ -89,7 +89,6 @@
   엄격한 의존성 관리를 하여 유령 의존성을 막으며 <br/>
   비대한 node_modules의 사이즈를 대폭 줄여준 다는 점이 좋아 채택하였습니다.
   
-### 6. 
 
 # 트러블 슈팅
 <details>
@@ -123,9 +122,9 @@
 </details>
 
 
-# 팀원
+# 프론트 엔드 팀원
 |팀원|깃허브 주소| 역할 분담|
 |----|-----|------|
-|김대은| https://github.com/Dae-une   | 초기세팅,기록하기,게시글 작성,랭킹,신고하기,검색기능,댓글 페이지,깃헙액션,배포,마무리 오류 수정 |
+|김대은| https://github.com/Dae-une   | 초기세팅(eslint,prettier), 기록하기, 게시글 작성, 랭킹페이지, 신고하기, 검색기능, 댓글 페이지,<br/> GitHub Actions, S3,CloudFront를 이용한 배포 |
 |김도우|  https://github.com/dowoo99  | 유저페이지, 피드페이지 |
 |이승준|  https://github.com/lsj3284   | 로그인 페이지,댓글페이지 |

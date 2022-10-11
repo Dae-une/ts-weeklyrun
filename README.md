@@ -125,6 +125,6 @@
 # 프론트 엔드 팀원
 |팀원|깃허브 주소| 역할 분담|
 |----|-----|------|
-|김대은| https://github.com/Dae-une   | 초기세팅(eslint,prettier), 기록하기, 게시글 작성, 랭킹페이지, 신고하기, 검색기능, 댓글 페이지,<br/> GitHub Actions, S3,CloudFront를 이용한 배포 |
+|김대은| https://github.com/Dae-une   | 초기세팅(eslint,prettier), 기록하기, 게시글 작성, 랭킹페이지, 신고하기,<br/> 검색기능, 댓글 페이지, GitHub Actions, S3,CloudFront를 이용한 배포 |
 |김도우|  https://github.com/dowoo99  | 유저페이지, 피드페이지 |
 |이승준|  https://github.com/lsj3284   | 로그인 페이지,댓글페이지 |

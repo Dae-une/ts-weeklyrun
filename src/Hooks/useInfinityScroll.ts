@@ -1,6 +1,6 @@
 import { useInfiniteQuery } from "react-query";
 
-const useInfinityScroll = (QueryKey: string, QueryFnc) => {
+const useInfinityScroll = (QueryKey: string | string[], QueryFnc) => {
   const { data, status, fetchNextPage, isFetchingNextPage, hasNextPage } = useInfiniteQuery(
     QueryKey,
     ({ pageParam = 1 }) => QueryFnc(pageParam),

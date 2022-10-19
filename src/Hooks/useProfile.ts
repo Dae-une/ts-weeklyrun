@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "react-query";
 import { instance } from "../Utils/Instance";
-const userProfile = async (image: File) => {
+const userProfile = async (image: FormData | { basicImage: boolean }) => {
   return await instance.put(`/api/user/image`, image);
 };
 

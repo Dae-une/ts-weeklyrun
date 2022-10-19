@@ -14,22 +14,22 @@ const Modal: FC<Props> = ({ done }) => {
   const { mutate: put } = usePutGoal();
 
   const [modal, setModal] = useRecoilState(ModalState);
-  const [goal, setGoal] = useState("");
+  const [goal, setGoal] = useState(0);
 
   const onChangeHandeler = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
-    const onlyNumber = value.replace(/[^0-9]/g, "");
+    const onlyNumber = Number(value.replace(/[^0-9]/g, ""));
     setGoal(onlyNumber);
   };
 
   const onSubmitHandeler = () => {
     post(goal);
     setModal(false);
-    setGoal("");
+    setGoal(0);
   };
   const onPutHandeler = () => {
     put(goal);
-    setGoal("");
+    setGoal(0);
     setModal(false);
   };
   return (

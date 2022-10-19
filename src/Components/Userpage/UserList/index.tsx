@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, FC } from "react";
 
 import { StyleUserListWrap, NonePost } from "./style";
 import useInfinityScroll from "../../../Hooks/useInfinityScroll";
@@ -19,8 +19,13 @@ interface PostData {
   commentNum: number;
   hashtag: string[];
 }
+interface UserData {
+  userData: {
+    nickname: string;
+  };
+}
 
-const UserList = ({ userData }) => {
+const UserList: FC<UserData> = ({ userData }) => {
   const nickname = userData?.nickname;
 
   const fetchUserList = async (pageParam: number) => {

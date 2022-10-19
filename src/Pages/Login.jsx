@@ -6,7 +6,7 @@ import Runner from "../Static/Lottie/Runner.json";
 import { ReactComponent as KakaoLoginIcon } from "../Static/Icons/KakaoLoginIcon.svg";
 import { ReactComponent as NaverLoginIcon } from "../Static/Icons/NaverLoginIcon.svg";
 import { ReactComponent as Logo } from "../Static/Icons/LoginLogo.svg";
-import Modal from "../Components/Common/Modal/Modal";
+import Modal from "../Components/Common/Modal/index";
 
 const KAKAO_LOGIN = "https://yunseong.shop/api/kakao/callback";
 const NAVER_LOGIN = "http://yunseong.shop/api/naver/callback";
